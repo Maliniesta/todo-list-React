@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://github.com/Maliniesta/todo-list-React.git",
+  base: "/todo-list-React/",
   plugins: [react(), tailwindcss()],
 });
